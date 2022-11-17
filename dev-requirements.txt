@@ -21,3 +21,5 @@ releases>=1.5,<2.0
 semantic_version>=2.4,<2.5
 # Self
 -e ".[ed25519,invoke]"
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
